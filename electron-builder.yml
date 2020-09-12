@@ -1,0 +1,12 @@
+appId: com.victoryforphil.tasktracker
+productName: Task Tracker
+copyright: Copyright © 2018 Alex Carter
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
